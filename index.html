@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4b0c21">
+  <link rel="icon" href="assets/heart.svg" type="image/svg+xml">
+  <title>Feliz Aniversario mi cielo</title>
+  <meta name="description" content="Un pequeño viaje por nuestra historia. Ocho meses, cientos de recuerdos y toda una vida por delante.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@300;400;500;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#inicio" aria-label="Volver al inicio">
+      <span class="brand-heart">♡</span>
+      <span>Nuestra Historia</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">
+      <span></span><span></span>
+      <span class="sr-only">Abrir menú</span>
+    </button>
+    <nav id="main-menu" aria-label="Navegación principal">
+      <a class="active" href="#inicio">Inicio</a>
+      <a href="#historia">Nuestra historia</a>
+      <a href="#recuerdos">Recuerdos</a>
+      <a href="#carta">Carta para ti</a>
+    </nav>
+    <span class="nav-heart" aria-hidden="true">♡</span>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Un año y tres meses · Una historia</p>
+        <h1>Todo comenzó<br>hace <em> 1 año y 3 meses…</em></h1>
+        <div class="gold-divider"><span>♥</span></div>
+        <p class="hero-subtitle">Un pequeño viaje por nuestra historia</p>
+        <a class="button button-primary" href="#tiempo">
+          <span aria-hidden="true">♡</span> Empezar <span aria-hidden="true">♡</span>
+        </a>
+        <a class="scroll-hint" href="#tiempo">
+          <span class="mouse" aria-hidden="true"><i></i></span>
+          Desliza para descubrir nuestros momentos
+        </a>
+      </div>
+      <span class="floating-heart heart-one" aria-hidden="true">♡</span>
+      <span class="floating-heart heart-two" aria-hidden="true">♡</span>
+    </section>
+
+    <section class="light-section time-area" id="tiempo">
+      <div class="time-card reveal">
+        <div class="section-heading compact">
+          <span></span><i>♡</i>
+          <h2>Tiempo a tu lado</h2>
+          <i>♡</i><span></span>
+        </div>
+        <div class="stats">
+          <article>
+            <span class="stat-icon">♡</span>
+            <strong data-count="15">0</strong>
+            <p>meses</p>
+          </article>
+          <article>
+            <span class="stat-icon">▦</span>
+            <strong data-count="456">0</strong>
+            <p>días</p>
+          </article>
+          <article>
+            <span class="stat-icon">◷</span>
+            <strong data-count="10944">0</strong>
+            <p>horas</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="story-wrap" id="historia">
+        <div class="section-heading reveal">
+          <span></span><i>♡</i>
+          <h2>Nuestra historia</h2>
+          <i>♡</i><span></span>
+        </div>
+        <div class="timeline">
+          <article class="moment left reveal">
+            <div class="moment-image month-1" role="img" aria-label="Recuerdo del primer mes"></div>
+            <div class="moment-copy">
+              <h3>Cómo empezó todo</h3>
+              <span>Ese primer día que cambió todo sin que lo supiéramos.</span>
+            </div>
+          </article>
+          <article class="moment right reveal">
+            <div class="moment-image month-2" role="img" aria-label="Recuerdo del segundo mes"></div>
+            <div class="moment-copy">
+              <h3>Nuestra primera cita</h3>
+              <span>Conversaciones infinitas y mariposas en el estómago.</span>
+            </div>
+          </article>
+          <article class="moment left reveal">
+            <div class="moment-image month-4" role="img" aria-label="Recuerdo del cuarto mes"></div>
+            <div class="moment-copy">
+              <h3>Un recuerdo inolvidable</h3>
+              <span>Ese momento que se quedó grabado en nuestro corazón.</span>
+            </div>
+          </article>
+          <article class="moment right reveal">
+            <div class="moment-image month-6" role="img" aria-label="Recuerdo del sexto mes"></div>
+            <div class="moment-copy">
+              <h3>Risas y aventuras</h3>
+              <span>Viajes, locuras y miles de historias juntos.</span>
+            </div>
+          </article>
+          <article class="moment left reveal">
+            <div class="moment-image month-8" role="img" aria-label="Recuerdo del octavo mes"></div>
+            <div class="moment-copy">
+              <h3>Lo que todavía nos espera</h3>
+              <span>Un futuro lleno de sueños que construiremos juntos.</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="memories" id="recuerdos">
+      <div class="section-heading light reveal">
+        <span></span><i>♡</i>
+        <h2>Nuestros recuerdos</h2>
+        <i>♡</i><span></span>
+      </div>
+      <p class="section-kicker reveal">Cinco instantes, una misma sensación</p>
+      <div class="polaroid-grid">
+        <article class="polaroid p1 reveal">
+          <i class="tape"></i>
+          <img class="photo" src="assets/Recuerdo-1.webp" alt="Primer recuerdo juntos" loading="lazy" decoding="async">
+          <p>Ese día <span>♡</span></p>
+        </article>
+        <article class="polaroid p2 reveal">
+          <i class="tape"></i>
+          <img class="photo" src="assets/Recuerdo-2.webp" alt="Segundo recuerdo juntos" loading="lazy" decoding="async">
+          <p>Disfrutamos <span>♡</span></p>
+        </article>
+        <article class="polaroid p3 reveal">
+          <i class="tape"></i>
+          <img class="photo" src="assets/Recuerdo-3.webp" alt="Tercer recuerdo juntos" loading="lazy" decoding="async">
+          <p>Nos amamos <span>♡</span></p>
+        </article>
+        <article class="polaroid p4 reveal">
+          <i class="tape"></i>
+          <img class="photo" src="assets/Recuerdo-4.webp" alt="Cuarto recuerdo juntos" loading="lazy" decoding="async">
+          <p>Momentos que guardo <span>♡</span></p>
+        </article>
+        <article class="polaroid p5 reveal">
+          <i class="tape"></i>
+          <img class="photo" src="assets/Recuerdo-5.webp" alt="Quinto recuerdo juntos" loading="lazy" decoding="async">
+          <p>Siempre contigo <span>♡</span></p>
+        </article>
+      </div>
+
+      <div class="music-card reveal" id="musica">
+        <audio id="relationship-song" preload="metadata">
+          <source src="assets/Tito Rojas - Siempre Sere.mp3" type="audio/mpeg">
+        </audio>
+        <div class="album">
+          <div class="album-cover"></div>
+          <div class="record"></div>
+        </div>
+        <div class="music-intro">
+          <p class="script-label">Solo nuestra</p>
+          <h2>Te la dedico siempre</h2>
+          <span>La música que te canto a todo pulmón</span>
+        </div>
+        <div class="player">
+          <div class="track-meta">
+            <div><strong>Siempre Seré</strong><span>Tito Rojas</span></div>
+            <button class="favorite" type="button" aria-label="Marcar como favorita">♡</button>
+          </div>
+          <div class="progress">
+            <span class="progress-fill"></span>
+            <button class="progress-dot" type="button" aria-label="Cambiar posición"></button>
+          </div>
+          <div class="times"><span id="current-time">0:00</span><span id="total-time">--:--</span></div>
+          <div class="controls">
+            <button type="button" aria-label="Aleatorio">↝</button>
+            <button type="button" aria-label="Anterior">◀</button>
+            <button class="play" type="button" aria-label="Reproducir"><span>▶</span></button>
+            <button type="button" aria-label="Siguiente">▶</button>
+            <button type="button" aria-label="Repetir">↻</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="letter-section" id="carta">
+      <div class="letter reveal">
+        <div class="flower" aria-hidden="true"><span>✿</span><i></i></div>
+        <div class="letter-content">
+          <p class="script-label">De mi corazón al tuyo</p>
+          <h2>Una carta para ti</h2>
+          <div class="gold-divider small"><span>♥</span></div>
+          <p>Soy mucho de hablar del mar, por la calma que me trae estar en él, pero con el tiempo aprendí, que remar solo no era lo mejor, ya que no hay tempestad que no me derribe. Pero cuando llegastes a mi vida, comenzastes a remar conmigo y no hubo tormenta que nos detuviera. Junto a ti amor todo es posible. Gracias por ser mi persona favorita.</p>
+          <strong>Te amo <span>♡</span></strong>
+        </div>
+        <div class="doodle-hearts" aria-hidden="true"><span>♡</span><span>♡</span><span>♡</span></div>
+      </div>
+    </section>
+
+    <section class="finale" id="sorpresa">
+      <div class="bokeh" aria-hidden="true"></div>
+      <div class="finale-content reveal">
+        <p class="script-label">Y ahora, lo más bonito</p>
+        <h2>Lo mejor de nuestra historia…<br><em>es todo lo que aún nos falta por vivir</em></h2>
+        <div class="gold-divider"><span>♥</span></div>
+        <button class="button button-primary surprise-trigger" type="button">
+          <span aria-hidden="true">♙</span> Ver sorpresa final
+        </button>
+       
+      </div>
+    </section>
+  </main>
+
+  <div class="surprise-modal" role="dialog" aria-modal="true" aria-labelledby="surprise-title" hidden>
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <button class="modal-close" type="button" aria-label="Cerrar">×</button>
+      <span class="modal-heart">♡</span>
+      <p class="script-label">Mi lugar favorito</p>
+      <h2 id="surprise-title">Siempre será<br>donde estés tú.</h2>
+      <p>Por este 1 año y 3 meses y por todos los que nos quedan.</p>
+      <strong>Te elegiría una y mil veces.</strong>
+      <div class="modal-sparkles" aria-hidden="true">✦ &nbsp; ♡ &nbsp; ✦</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
