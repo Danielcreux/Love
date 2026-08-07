@@ -1,5 +1,5 @@
 # Love
-Páginas personalizadas para sorprender❤️
+Página personalizadas para sorprender❤️
 
 Puedes personalizarlo a tu gusto colocando las imágenes y música para esa persona especial 
 
